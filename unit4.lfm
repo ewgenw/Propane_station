@@ -1,0 +1,25 @@
+object Form4: TForm4
+  Left = 291
+  Height = 446
+  Top = 137
+  Width = 705
+  BorderStyle = bsSingle
+  Caption = 'Звіт'
+  ClientHeight = 446
+  ClientWidth = 705
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Memo1: TMemo
+    Left = 16
+    Height = 392
+    Top = 8
+    Width = 680
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+end

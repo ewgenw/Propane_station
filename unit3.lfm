@@ -1,0 +1,192 @@
+object Form3: TForm3
+  Left = 517
+  Height = 262
+  Top = 134
+  Width = 257
+  BorderStyle = bsNone
+  Caption = 'Налаштування'
+  ClientHeight = 262
+  ClientWidth = 257
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 56
+    Caption = 'id бочки 1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 32
+    Width = 56
+    Caption = 'id бочки 2'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 56
+    Width = 56
+    Caption = 'id бочки 3'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 15
+    Top = 80
+    Width = 56
+    Caption = 'id бочки 4'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 15
+    Top = 104
+    Width = 56
+    Caption = 'id бочки 5'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 15
+    Top = 128
+    Width = 56
+    Caption = 'id бочки 6'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 15
+    Top = 152
+    Width = 56
+    Caption = 'id бочки 7'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 8
+    Height = 15
+    Top = 200
+    Width = 68
+    Caption = 'Густина газу'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 80
+    Height = 23
+    Top = 8
+    Width = 80
+    TabOrder = 0
+    Text = '48054'
+  end
+  object Edit2: TEdit
+    Left = 80
+    Height = 23
+    Top = 32
+    Width = 80
+    TabOrder = 1
+    Text = '48052'
+  end
+  object Edit3: TEdit
+    Left = 80
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 2
+    Text = '48049'
+  end
+  object Edit4: TEdit
+    Left = 80
+    Height = 23
+    Top = 80
+    Width = 80
+    TabOrder = 3
+    Text = '48050'
+  end
+  object Edit5: TEdit
+    Left = 80
+    Height = 23
+    Top = 104
+    Width = 80
+    TabOrder = 4
+    Text = '48053'
+  end
+  object Edit6: TEdit
+    Left = 80
+    Height = 23
+    Top = 128
+    Width = 80
+    TabOrder = 5
+    Text = '48051'
+  end
+  object Edit7: TEdit
+    Left = 80
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 6
+    Text = '48055'
+  end
+  object Edit8: TEdit
+    Left = 80
+    Height = 23
+    Top = 200
+    Width = 80
+    OnChange = Edit8Change
+    TabOrder = 7
+    Text = '590'
+  end
+  object Label9: TLabel
+    Left = 160
+    Height = 15
+    Top = 204
+    Width = 77
+    Caption = '(кг/кубометр)'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 228
+    Width = 75
+    Caption = 'Відміна'
+    OnClick = Button1Click
+    TabOrder = 8
+  end
+  object Button2: TButton
+    Left = 177
+    Height = 25
+    Top = 228
+    Width = 75
+    Caption = 'ОК'
+    OnClick = Button2Click
+    TabOrder = 9
+  end
+  object Label10: TLabel
+    Left = 8
+    Height = 15
+    Top = 176
+    Width = 70
+    Caption = 'Період опит.'
+    ParentColor = False
+  end
+  object Edit9: TEdit
+    Left = 80
+    Height = 23
+    Top = 176
+    Width = 80
+    TabOrder = 10
+    Text = '30'
+  end
+  object Label11: TLabel
+    Left = 160
+    Height = 15
+    Top = 184
+    Width = 37
+    Caption = 'секунд'
+    ParentColor = False
+  end
+end

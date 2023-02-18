@@ -1,0 +1,803 @@
+object Form1: TForm1
+  Left = 340
+  Height = 348
+  Top = 121
+  Width = 619
+  BorderStyle = bsSingle
+  Caption = 'Пропан'
+  ClientHeight = 348
+  ClientWidth = 619
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 121
+    Top = 24
+    Width = 129
+    Caption = '№1'
+    ClientHeight = 101
+    ClientWidth = 125
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label43: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 176
+    Height = 121
+    Top = 24
+    Width = 129
+    Caption = '№2'
+    ClientHeight = 101
+    ClientWidth = 125
+    TabOrder = 1
+    object Label7: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label10: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label11: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label12: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label44: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 328
+    Height = 120
+    Top = 24
+    Width = 129
+    Caption = '№3'
+    ClientHeight = 100
+    ClientWidth = 125
+    TabOrder = 2
+    object Label13: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label14: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label15: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label16: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label17: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label18: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label45: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 472
+    Height = 122
+    Top = 24
+    Width = 129
+    Caption = '№4'
+    ClientHeight = 102
+    ClientWidth = 125
+    TabOrder = 3
+    object Label19: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label20: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label21: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label22: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label23: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label24: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label46: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox5: TGroupBox
+    Left = 24
+    Height = 121
+    Top = 144
+    Width = 129
+    Caption = '№5'
+    ClientHeight = 101
+    ClientWidth = 125
+    TabOrder = 4
+    object Label25: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label26: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label27: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label28: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label29: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label30: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label47: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox6: TGroupBox
+    Left = 176
+    Height = 120
+    Top = 145
+    Width = 129
+    Caption = '№6'
+    ClientHeight = 100
+    ClientWidth = 125
+    TabOrder = 5
+    object Label31: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label32: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label33: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label34: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label35: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label36: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label48: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object GroupBox7: TGroupBox
+    Left = 328
+    Height = 120
+    Top = 144
+    Width = 129
+    Caption = '№7'
+    ClientHeight = 100
+    ClientWidth = 125
+    TabOrder = 6
+    object Label37: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label38: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label39: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label40: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label41: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 60
+      Caption = 'Міліметрів'
+      ParentColor = False
+    end
+    object Label42: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label49: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Оновити'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Звіти'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+  object GroupBox8: TGroupBox
+    Left = 472
+    Height = 122
+    Top = 145
+    Width = 129
+    Caption = 'Витратомір'
+    ClientHeight = 102
+    ClientWidth = 125
+    TabOrder = 9
+    object Label50: TLabel
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label51: TLabel
+      Left = 8
+      Height = 21
+      Top = 32
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label52: TLabel
+      Left = 8
+      Height = 21
+      Top = 56
+      Width = 45
+      Caption = '00000'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -16
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label53: TLabel
+      Left = 64
+      Height = 15
+      Top = 14
+      Width = 32
+      Caption = 'Літрів'
+      ParentColor = False
+    end
+    object Label54: TLabel
+      Left = 66
+      Height = 15
+      Top = 38
+      Width = 12
+      Caption = 'Кг'
+      ParentColor = False
+    end
+    object Label55: TLabel
+      Left = 66
+      Height = 15
+      Top = 62
+      Width = 12
+      Caption = 'C⁰'
+      ParentColor = False
+    end
+    object Label56: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 55
+      Caption = '-----------'
+      ParentColor = False
+    end
+  end
+  object Label57: TLabel
+    Left = 200
+    Height = 15
+    Top = 280
+    Width = 112
+    Caption = 'Сумарно по бочкам'
+    ParentColor = False
+  end
+  object Label58: TLabel
+    Left = 328
+    Height = 21
+    Top = 280
+    Width = 45
+    Caption = '00000'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label59: TLabel
+    Left = 392
+    Height = 15
+    Top = 286
+    Width = 32
+    Caption = 'Літрів'
+    ParentColor = False
+  end
+  object Button3: TButton
+    Left = 510
+    Height = 25
+    Top = 280
+    Width = 91
+    Caption = 'Налаштування'
+    OnClick = Button3Click
+    TabOrder = 10
+  end
+  object Label60: TLabel
+    Left = 200
+    Height = 15
+    Top = 310
+    Width = 131
+    Caption = 'Густина по витратоміру'
+    ParentColor = False
+  end
+  object Label61: TLabel
+    Left = 344
+    Height = 21
+    Top = 310
+    Width = 45
+    Caption = '00000'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label62: TLabel
+    Left = 392
+    Height = 15
+    Top = 312
+    Width = 77
+    Caption = '(кг/кубометр)'
+    ParentColor = False
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    Connected = True
+    HostName = '192.168.99.26'
+    Port = 5432
+    Database = 'counters'
+    User = 'postgres'
+    Password = 'QKofkP3617VB'
+    Protocol = 'postgresql'
+    Left = 296
+    Top = 8
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'SELECT product,created_at from level_history where ((dev_id=''48052'')and(created_at>''2022-10-27 08:01:46.706+03'')) order by created_at ASC'
+    )
+    Params = <>
+    Left = 152
+  end
+  object Timer1: TTimer
+    Interval = 5000
+    OnTimer = Timer1Timer
+    Left = 512
+    Top = 312
+  end
+end
